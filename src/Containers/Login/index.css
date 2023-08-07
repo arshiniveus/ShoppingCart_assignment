@@ -1,0 +1,15 @@
+.LoginForm{
+    border:1px solid black;
+    margin-top: 2rem;
+    padding:4rem;
+    border-radius: 4%;
+}
+.btn{
+    margin-left:25%;
+    margin-bottom: 10px;   
+}
+.btn1 {
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+
