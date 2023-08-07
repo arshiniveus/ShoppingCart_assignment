@@ -100,7 +100,7 @@ const Header = (props) => {
         </Navbar.Text>
 
         {localStorage.getItem('loginData') ?
-          <DropdownButton id="dropdown-basic-button" title={localStorage.getItem('loginData') ? `Hi, Arshiya` : 'Login'}>
+          <DropdownButton id="dropdown-basic-button" className="mt-3" variant='outline-light' title={localStorage.getItem('loginData') ? `Hi, Arshiya` : 'Login'}>
 
             <Dropdown.Item onClick={() => Logout()}>Logout
             </Dropdown.Item>

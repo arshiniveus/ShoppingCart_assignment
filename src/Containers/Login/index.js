@@ -46,7 +46,7 @@ function TextControlsExample () {
 
             </Form.Group>
             <p className='text-danger'>{ErrorMessage}</p>
-            <Button variant='dark' onClick={() => SubmitForm()} className='btn' >Sign in</Button>
+            <Button variant='dark' onClick={() => SubmitForm()} className='btn ml-5 ' >Sign in</Button>
             <Button variant='dark' onClick={() => navigate("/")} className='btn1' >View as Guest</Button>
           </Form>
         </Col>
